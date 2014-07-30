@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadWriteEmptyTFile", "Read
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadWriteHistogramToTFile", "ReadWriteHistogramToTFile\ReadWriteHistogramToTFile.vcxproj", "{F1AD7165-152B-45E9-A80A-4EE4755646D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LimitExtrapolation", "LimitExtrapolation\LimitExtrapolation.vcxproj", "{976DBC31-8B67-4868-980A-CC7C2A10FD78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{F1AD7165-152B-45E9-A80A-4EE4755646D5}.Debug|Win32.Build.0 = Debug|Win32
 		{F1AD7165-152B-45E9-A80A-4EE4755646D5}.Release|Win32.ActiveCfg = Release|Win32
 		{F1AD7165-152B-45E9-A80A-4EE4755646D5}.Release|Win32.Build.0 = Release|Win32
+		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Debug|Win32.Build.0 = Debug|Win32
+		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Release|Win32.ActiveCfg = Release|Win32
+		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
