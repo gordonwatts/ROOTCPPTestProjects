@@ -6,6 +6,9 @@ etc/
 fonts/
 icons/
 
+## VC
+packages\*\**
+
 #################
 ## Eclipse
 #################
