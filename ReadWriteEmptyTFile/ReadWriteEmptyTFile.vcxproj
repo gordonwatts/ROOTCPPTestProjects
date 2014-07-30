@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.props" Condition="Exists('..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.props')" />
+  <Import Project="..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.props" Condition="Exists('..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -40,7 +40,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros">
-    <NuGetPackageImportStamp>998b227b</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>1b4f5d5c</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -86,15 +86,13 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\ROOT-5.34.18-win32.vc11.redist.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.redist.targets" Condition="Exists('..\packages\ROOT-5.34.18-win32.vc11.redist.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.redist.targets')" />
-    <Import Project="..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.targets" Condition="Exists('..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.targets')" />
+    <Import Project="..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.targets" Condition="Exists('..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\ROOT-5.34.18-win32.vc11.redist.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT-5.34.18-win32.vc11.redist.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.redist.targets'))" />
-    <Error Condition="!Exists('..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.props'))" />
-    <Error Condition="!Exists('..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT-5.34.18-win32.vc11.5.34.18.1\build\native\ROOT-5.34.18-win32.vc11.targets'))" />
+    <Error Condition="!Exists('..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.props'))" />
+    <Error Condition="!Exists('..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT_5_34_19.01.00.00\build\native\ROOT_5_34_19.targets'))" />
   </Target>
 </Project>
