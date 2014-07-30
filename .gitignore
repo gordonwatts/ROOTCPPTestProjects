@@ -2,6 +2,9 @@
 # ROOT
 #################
 *.root
+etc/
+fonts/
+icons/
 
 #################
 ## Eclipse
