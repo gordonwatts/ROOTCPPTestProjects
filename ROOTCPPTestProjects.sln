@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadWriteHistogramToTFile",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LimitExtrapolation", "LimitExtrapolation\LimitExtrapolation.vcxproj", "{976DBC31-8B67-4868-980A-CC7C2A10FD78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManipTString", "ManipTString\ManipTString.vcxproj", "{C79063BA-1083-4DFF-87D5-B58391EF39AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Debug|Win32.Build.0 = Debug|Win32
 		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Release|Win32.ActiveCfg = Release|Win32
 		{976DBC31-8B67-4868-980A-CC7C2A10FD78}.Release|Win32.Build.0 = Release|Win32
+		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Debug|Win32.Build.0 = Debug|Win32
+		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Release|Win32.ActiveCfg = Release|Win32
+		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
