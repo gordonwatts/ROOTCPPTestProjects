@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LimitExtrapolation", "Limit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManipTString", "ManipTString\ManipTString.vcxproj", "{C79063BA-1083-4DFF-87D5-B58391EF39AF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetSharedLibraryList", "GetSharedLibraryList\GetSharedLibraryList.vcxproj", "{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -42,6 +44,12 @@ Global
 		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Release - With Debug Info Non Opt|Win32.Build.0 = Release - With Debug Info Non Opt|Win32
 		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Release|Win32.ActiveCfg = Release|Win32
 		{C79063BA-1083-4DFF-87D5-B58391EF39AF}.Release|Win32.Build.0 = Release|Win32
+		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Debug|Win32.Build.0 = Debug|Win32
+		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release - With Debug Info Non Opt|Win32.ActiveCfg = Release|Win32
+		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release - With Debug Info Non Opt|Win32.Build.0 = Release|Win32
+		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release|Win32.ActiveCfg = Release|Win32
+		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
