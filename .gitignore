@@ -8,6 +8,7 @@ icons/
 
 ## VC
 packages\*\**
+lib/*
 
 #################
 ## Eclipse
