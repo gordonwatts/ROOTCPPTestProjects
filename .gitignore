@@ -10,6 +10,9 @@ icons/
 packages\*\**
 lib/*
 
+## nuget
+*.deleteme
+
 #################
 ## Eclipse
 #################
