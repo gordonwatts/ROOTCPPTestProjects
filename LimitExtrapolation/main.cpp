@@ -8,6 +8,7 @@
 #include "TFile.h"
 #include "TH1F.h"
 #include "TH2F.h"
+#include "TApplication.h"
 
 using namespace std;
 
@@ -114,30 +115,20 @@ private:
 
 int main()
 {
-#ifdef sample_600_150
-	// Config parameters (shoudl be loaded from a file).
-	string dataset = "600_150_plots_integral_10m_1500GeV_new";
-	double generated_ctau = 1.7; // meters (from the note appendix)
-	double vpion_mass = 150; // GeV.
-#endif
-#ifdef sample_900_150
-	// Config parameters (shoudl be loaded from a file).
-	string dataset = "900_150_plots_integral_10m_1500GeV_new";
-	double generated_ctau = 1.3; // meters (from the note appendix)
-	double vpion_mass = 150; // GeV.
-#endif
-#ifdef sample_100_25
+	int args = 0;
+	char **argv = 0;
+	auto t = new TApplication("hi there", &args, argv);
+
 	// Config parameters (shoudl be loaded from a file).
 	string dataset = "159221_100_25_plots_integral_10m_1500GeV_new";
 	double generated_ctau = 1.25; // meters (from the note appendix)
 	double vpion_mass = 25; // GeV.
-#endif
 
 	double lxy_min = 0;
 	double lxy_max = 10000 / 1000.;
 
 	// Open the file so we can have it for later use.
-	auto input_fname = TString("../data/") + dataset + ".root";
+	auto input_fname = TString("") + dataset + ".root";
 	auto input_file = auto_ptr<TFile>(TFile::Open(input_fname, "READ"));
 
 	// Functions we can use to generate various things
