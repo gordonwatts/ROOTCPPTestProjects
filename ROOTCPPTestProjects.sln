@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManipTString", "ManipTStrin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetSharedLibraryList", "GetSharedLibraryList\GetSharedLibraryList.vcxproj", "{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompileMacro", "CompileMacro\CompileMacro.vcxproj", "{39F40844-9C8E-4B60-BB5B-2989117FA72E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -50,6 +52,12 @@ Global
 		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release - With Debug Info Non Opt|Win32.Build.0 = Release|Win32
 		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release|Win32.ActiveCfg = Release|Win32
 		{FBD9C3B2-6B6A-4FA1-9491-731A180405AF}.Release|Win32.Build.0 = Release|Win32
+		{39F40844-9C8E-4B60-BB5B-2989117FA72E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39F40844-9C8E-4B60-BB5B-2989117FA72E}.Debug|Win32.Build.0 = Debug|Win32
+		{39F40844-9C8E-4B60-BB5B-2989117FA72E}.Release - With Debug Info Non Opt|Win32.ActiveCfg = Release|Win32
+		{39F40844-9C8E-4B60-BB5B-2989117FA72E}.Release - With Debug Info Non Opt|Win32.Build.0 = Release|Win32
+		{39F40844-9C8E-4B60-BB5B-2989117FA72E}.Release|Win32.ActiveCfg = Release|Win32
+		{39F40844-9C8E-4B60-BB5B-2989117FA72E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

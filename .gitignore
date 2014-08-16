@@ -5,6 +5,9 @@
 etc/
 fonts/
 icons/
+cint/
+include/
+lib/
 
 ## VC
 packages\*\**
@@ -12,6 +15,11 @@ lib/*
 
 ## nuget
 *.deleteme
+
+############
+# Some random project files
+############
+junk*.*
 
 #################
 ## Eclipse
