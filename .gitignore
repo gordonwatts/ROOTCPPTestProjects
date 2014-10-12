@@ -12,6 +12,7 @@ lib/
 ## VC
 packages\*\**
 lib/*
+root/
 
 ## nuget
 *.deleteme
