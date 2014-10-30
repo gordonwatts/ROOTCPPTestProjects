@@ -11,8 +11,6 @@ int main()
 {
 	auto app = new TApplication("readwritehisto", NULL, NULL);
 
-	gSystem->Setenv("ROOTSYS", "D:\\Code\\ROOTCPPTestProjects\\Release");
-
 	auto rootsys = gSystem->Getenv("ROOTSYS");
 	if (rootsys == NULL) {
 		cout << "Unable to get proper value for ROOTSYS" << endl;
@@ -20,7 +18,6 @@ int main()
 	else {
 		cout << "ROOTSYS is " << rootsys << endl;
 	}
-
 
 	cout << "Creating empty file." << endl;
 	auto f1 = TFile::Open("junkWithHisto.root", "RECREATE");
