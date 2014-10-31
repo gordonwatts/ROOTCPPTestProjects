@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\ROOT.5.34.20.2\build\native\ROOT.props" Condition="Exists('..\packages\ROOT.5.34.20.2\build\native\ROOT.props')" />
+  <Import Project="..\packages\ROOT.534.20.5\build\native\ROOT.props" Condition="Exists('..\packages\ROOT.534.20.5\build\native\ROOT.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -54,7 +54,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros">
-    <NuGetPackageImportStamp>2622e390</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>10421190</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -119,13 +119,13 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\ROOT.5.34.20.2\build\native\ROOT.targets" Condition="Exists('..\packages\ROOT.5.34.20.2\build\native\ROOT.targets')" />
+    <Import Project="..\packages\ROOT.534.20.5\build\native\ROOT.targets" Condition="Exists('..\packages\ROOT.534.20.5\build\native\ROOT.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\ROOT.5.34.20.2\build\native\ROOT.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT.5.34.20.2\build\native\ROOT.props'))" />
-    <Error Condition="!Exists('..\packages\ROOT.5.34.20.2\build\native\ROOT.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT.5.34.20.2\build\native\ROOT.targets'))" />
+    <Error Condition="!Exists('..\packages\ROOT.534.20.5\build\native\ROOT.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT.534.20.5\build\native\ROOT.props'))" />
+    <Error Condition="!Exists('..\packages\ROOT.534.20.5\build\native\ROOT.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ROOT.534.20.5\build\native\ROOT.targets'))" />
   </Target>
 </Project>
