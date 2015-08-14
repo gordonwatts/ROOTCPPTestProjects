@@ -8,6 +8,12 @@
 
 using namespace std;
 
+//
+// WARNING:
+// You must have all the VC defines done before running this, or the compiler will totally fail to run.
+// So, be very careful! :-)
+//
+
 int main()
 {
 	// You can't do this without initializing TCint. The easiest way to do this is
