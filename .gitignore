@@ -13,6 +13,8 @@ lib/
 packages\*\**
 lib/*
 root/
+Release*/
+Debug*/
 
 ## nuget
 *.deleteme
